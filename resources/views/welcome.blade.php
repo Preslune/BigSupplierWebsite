@@ -25,6 +25,10 @@
         </div>
     @endforeach
     </div>
+    <div>
+        <div class="paging">
+            {{$books_data->links()}}
+        </div>
     </div>
 @endsection
 

@@ -28,16 +28,6 @@ body{
     
 }
 
-/* .bookitem #img{
-    width: 80%;
-    height: 80%;
-}
-
-#bookimage{
-    width: 80%;
-    height: 80%;
-} */
-
 .desc{
     text-align: left;
     padding-bottom: 20;
@@ -55,4 +45,10 @@ body{
     text-decoration: none;
 }
 
-
+.paging{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    font-size: 250%;
+}
